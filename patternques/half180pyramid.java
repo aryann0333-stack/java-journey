@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class invertpyramid2 {
+public class half180pyramid {
     public static void main(String[] args) {
 
         try (Scanner sc = new Scanner(System.in)) {
