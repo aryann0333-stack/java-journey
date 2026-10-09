@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/* we  ca use comparator and comparable both comparable and be implemented in class and comparator as anonymous class comparale has a method compareTo and mainly if we have sort naturally like by id roll no we use comparable if want to use our own logic then*/
+/* we  can use comparator and comparable both but comparable can be implemented in class and comparator as anonymous class comparale has a method compareTo and mainly if we have sort naturally like by id roll no then we use comparable if want to use our own logic*/
 
 class student implements Comparable<student> {
     int age;
@@ -61,7 +61,8 @@ public class compartor {
 
         System.out.println(studs);
 
-        Comparator<student> compare = (i, j) -> i.age > j.age ? 1 : -1;
+    
+        Comparator<student> _ = (i, j) -> i.age > j.age ? 1 : -1;
 
         Collections.sort(studs); // s1.compareTo(s2);
         for (student s : studs) {
