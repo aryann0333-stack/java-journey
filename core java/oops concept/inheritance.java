@@ -16,10 +16,10 @@ public class inheritance {
         int r1 = Calc.add(5, 4); // from calc
         int r2 = Calc.sub(5, 4); // from calc
 
-        int r3 = Calc.multi(5, 4); // adv calc
+        // int r3 = Calc.multi(5, 4); // adv calc
 
         double r4 = Calc.power(2, 4); // from scieCalc
 
-        System.out.println(r1 + " " + r2 + " " + r3 + " " + r4);
+        System.out.println(r1 + " " + r2 + " " +  " " + r4);
     }
 }
